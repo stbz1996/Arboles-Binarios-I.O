@@ -1,0 +1,3200 @@
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 1}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.070433 & \Large 3.787853 & \Large 4.043521 & \Large 4.289093 & \Large 4.634785 & \Large 4.938481 & \Large 4.957196 & \Large 5.240319 & \Large 5.337005 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 2}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.226551 & \Large 3.787269 & \Large 4.185640 & \Large 4.334996 & \Large 4.558191 & \Large 4.743256 & \Large 4.983800 & \Large 5.166377 & \Large 5.252933 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 3}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.114249 & \Large 3.653421 & \Large 4.261141 & \Large 4.333029 & \Large 4.536344 & \Large 4.812084 & \Large 5.012074 & \Large 5.168622 & \Large 5.241910 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 4}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.338434 & \Large 3.729522 & \Large 4.279624 & \Large 4.421909 & \Large 4.537189 & \Large 4.866394 & \Large 4.946395 & \Large 5.129026 & \Large 5.279061 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 5}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.088470 & \Large 3.639979 & \Large 4.114660 & \Large 4.373818 & \Large 4.585423 & \Large 4.864818 & \Large 5.057739 & \Large 5.158584 & \Large 5.275976 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 6}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.325398 & \Large 3.650719 & \Large 4.075153 & \Large 4.375735 & \Large 4.571424 & \Large 4.747818 & \Large 5.023957 & \Large 5.139986 & \Large 5.220440 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 7}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.340485 & \Large 3.748071 & \Large 4.166528 & \Large 4.374411 & \Large 4.692905 & \Large 4.905242 & \Large 4.953694 & \Large 5.160931 & \Large 5.293087 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 8}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.229487 & \Large 3.691623 & \Large 4.100661 & \Large 4.344570 & \Large 4.554708 & \Large 4.811958 & \Large 4.862260 & \Large 5.142764 & \Large 5.237296 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 9}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.246857 & \Large 3.675359 & \Large 4.091461 & \Large 4.383210 & \Large 4.615798 & \Large 4.764395 & \Large 5.064410 & \Large 5.179224 & \Large 5.209324 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 10}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.294574 & \Large 3.728082 & \Large 4.095202 & \Large 4.350840 & \Large 4.537724 & \Large 4.808116 & \Large 4.994319 & \Large 5.057563 & \Large 5.335838 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 11}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.106304 & \Large 3.694382 & \Large 3.963955 & \Large 4.357267 & \Large 4.664172 & \Large 4.911385 & \Large 4.898844 & \Large 5.076304 & \Large 5.287019 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 12}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.418453 & \Large 3.644036 & \Large 4.207958 & \Large 4.322207 & \Large 4.509670 & \Large 4.858512 & \Large 5.029418 & \Large 5.153102 & \Large 5.278603 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 13}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.168517 & \Large 3.706868 & \Large 4.249256 & \Large 4.493311 & \Large 4.584233 & \Large 4.810706 & \Large 5.082485 & \Large 5.130075 & \Large 5.207114 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 14}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.336903 & \Large 3.806187 & \Large 3.994224 & \Large 4.364633 & \Large 4.511360 & \Large 4.871849 & \Large 4.986817 & \Large 5.096926 & \Large 5.253348 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 15}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.108677 & \Large 3.852486 & \Large 4.049312 & \Large 4.270812 & \Large 4.739567 & \Large 4.833480 & \Large 5.024103 & \Large 5.191618 & \Large 5.241138 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 16}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.172655 & \Large 3.651148 & \Large 4.027589 & \Large 4.492439 & \Large 4.711853 & \Large 4.848095 & \Large 4.957014 & \Large 5.048945 & \Large 5.303437 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 17}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.358220 & \Large 3.787471 & \Large 4.000109 & \Large 4.401719 & \Large 4.734084 & \Large 4.849966 & \Large 5.087674 & \Large 5.131476 & \Large 5.225394 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 18}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.068448 & \Large 3.883936 & \Large 4.024672 & \Large 4.383038 & \Large 4.596287 & \Large 4.801776 & \Large 4.949323 & \Large 5.084743 & \Large 5.195266 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 19}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.347200 & \Large 3.780220 & \Large 4.221634 & \Large 4.441312 & \Large 4.520497 & \Large 4.697659 & \Large 5.055918 & \Large 5.234739 & \Large 5.345728 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 20}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.342932 & \Large 3.753807 & \Large 3.950398 & \Large 4.258811 & \Large 4.592132 & \Large 4.839383 & \Large 5.005307 & \Large 5.201587 & \Large 5.227485 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 21}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.280642 & \Large 3.839971 & \Large 4.189050 & \Large 4.335663 & \Large 4.576331 & \Large 4.821473 & \Large 5.015371 & \Large 5.178818 & \Large 5.255076 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 22}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.256136 & \Large 3.784206 & \Large 4.097523 & \Large 4.305247 & \Large 4.589191 & \Large 4.674583 & \Large 4.989845 & \Large 5.129841 & \Large 5.283936 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 23}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.305029 & \Large 3.672775 & \Large 4.162638 & \Large 4.355389 & \Large 4.594589 & \Large 4.699516 & \Large 4.948789 & \Large 5.185916 & \Large 5.196418 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 24}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.259656 & \Large 3.769876 & \Large 4.104662 & \Large 4.412075 & \Large 4.517361 & \Large 4.662013 & \Large 5.049166 & \Large 5.244089 & \Large 5.240607 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 25}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.173828 & \Large 3.705347 & \Large 3.906696 & \Large 4.317789 & \Large 4.613853 & \Large 4.733949 & \Large 4.955369 & \Large 5.103927 & \Large 5.246105 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 26}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.197478 & \Large 3.569330 & \Large 4.169826 & \Large 4.363183 & \Large 4.544147 & \Large 4.757486 & \Large 4.927356 & \Large 5.039614 & \Large 5.370867 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 27}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.410017 & \Large 3.814201 & \Large 4.080656 & \Large 4.426203 & \Large 4.606044 & \Large 4.831907 & \Large 4.941570 & \Large 5.025918 & \Large 5.256860 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 28}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.231284 & \Large 3.677901 & \Large 4.132619 & \Large 4.310737 & \Large 4.576519 & \Large 4.818207 & \Large 5.034624 & \Large 5.143994 & \Large 5.233723 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 29}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.262087 & \Large 3.722491 & \Large 4.063755 & \Large 4.320091 & \Large 4.601023 & \Large 4.782448 & \Large 4.932877 & \Large 5.194380 & \Large 5.124276 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 30}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.210979 & \Large 3.733576 & \Large 4.076605 & \Large 4.396549 & \Large 4.732676 & \Large 4.797149 & \Large 5.007768 & \Large 5.146869 & \Large 5.289057 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 31}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.343780 & \Large 3.668695 & \Large 4.078436 & \Large 4.086722 & \Large 4.493098 & \Large 4.757403 & \Large 4.957890 & \Large 5.112528 & \Large 5.260869 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 32}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.423765 & \Large 3.704291 & \Large 4.072968 & \Large 4.392847 & \Large 4.596762 & \Large 4.814579 & \Large 5.008291 & \Large 5.104296 & \Large 5.215854 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 33}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.085122 & \Large 3.631814 & \Large 4.109972 & \Large 4.395728 & \Large 4.532495 & \Large 4.769779 & \Large 4.955052 & \Large 5.162632 & \Large 5.218975 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 34}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.438020 & \Large 3.789197 & \Large 4.116699 & \Large 4.370659 & \Large 4.623128 & \Large 4.804083 & \Large 4.859996 & \Large 5.185601 & \Large 5.265353 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 35}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.432004 & \Large 3.828674 & \Large 4.104806 & \Large 4.369340 & \Large 4.555192 & \Large 4.970769 & \Large 5.024620 & \Large 5.201384 & \Large 5.316070 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 36}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.212830 & \Large 3.730651 & \Large 4.129230 & \Large 4.357191 & \Large 4.592474 & \Large 4.867198 & \Large 4.970729 & \Large 5.171614 & \Large 5.293309 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 37}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.161797 & \Large 3.723845 & \Large 4.063468 & \Large 4.274280 & \Large 4.558737 & \Large 4.812839 & \Large 4.983221 & \Large 5.116031 & \Large 5.313217 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 38}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.407859 & \Large 3.540698 & \Large 4.010288 & \Large 4.292261 & \Large 4.650962 & \Large 4.768734 & \Large 4.974775 & \Large 5.097600 & \Large 5.312127 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 39}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.323372 & \Large 3.759104 & \Large 4.072045 & \Large 4.275214 & \Large 4.646579 & \Large 4.926538 & \Large 4.998690 & \Large 5.139842 & \Large 5.278578 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 40}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.206078 & \Large 3.758834 & \Large 4.075443 & \Large 4.343035 & \Large 4.497639 & \Large 4.861998 & \Large 4.923319 & \Large 5.169876 & \Large 5.228025 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 41}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.391859 & \Large 3.709658 & \Large 4.020680 & \Large 4.373174 & \Large 4.646247 & \Large 4.828258 & \Large 5.004478 & \Large 5.075844 & \Large 5.210637 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 42}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.183692 & \Large 3.772861 & \Large 4.123123 & \Large 4.466201 & \Large 4.630313 & \Large 4.843095 & \Large 5.064551 & \Large 5.104616 & \Large 5.325117 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 43}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.299941 & \Large 3.891143 & \Large 4.046170 & \Large 4.396110 & \Large 4.478161 & \Large 4.811436 & \Large 4.889357 & \Large 5.179191 & \Large 5.263422 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 44}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.256522 & \Large 3.587595 & \Large 4.018665 & \Large 4.252824 & \Large 4.457568 & \Large 4.612029 & \Large 4.959116 & \Large 5.110001 & \Large 5.187417 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 45}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.117439 & \Large 3.775040 & \Large 4.239703 & \Large 4.320866 & \Large 4.609643 & \Large 4.739385 & \Large 4.974319 & \Large 5.116601 & \Large 5.311585 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 46}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.289429 & \Large 3.842846 & \Large 3.926958 & \Large 4.320118 & \Large 4.642364 & \Large 4.805222 & \Large 4.978051 & \Large 5.118849 & \Large 5.247652 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 47}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.319220 & \Large 3.815140 & \Large 4.030516 & \Large 4.307645 & \Large 4.492550 & \Large 4.750271 & \Large 4.827875 & \Large 5.126520 & \Large 5.280304 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 48}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.364451 & \Large 3.650051 & \Large 4.055526 & \Large 4.406794 & \Large 4.614110 & \Large 4.653589 & \Large 4.875286 & \Large 5.083472 & \Large 5.294574 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 49}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.207304 & \Large 3.795901 & \Large 4.083979 & \Large 4.371502 & \Large 4.602988 & \Large 4.746567 & \Large 5.001970 & \Large 5.087449 & \Large 5.242556 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 50}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.229183 & \Large 3.721305 & \Large 4.197614 & \Large 4.391190 & \Large 4.552321 & \Large 4.806175 & \Large 5.042088 & \Large 5.143888 & \Large 5.267133 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 51}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.237475 & \Large 3.738658 & \Large 4.029669 & \Large 4.289771 & \Large 4.616916 & \Large 4.718089 & \Large 4.912679 & \Large 5.171715 & \Large 5.296453 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 52}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.159890 & \Large 3.677133 & \Large 3.995394 & \Large 4.344327 & \Large 4.638466 & \Large 4.871322 & \Large 4.968217 & \Large 5.095759 & \Large 5.356227 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 53}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.185395 & \Large 3.651651 & \Large 4.191710 & \Large 4.292502 & \Large 4.580282 & \Large 4.698195 & \Large 4.992147 & \Large 5.150558 & \Large 5.308085 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 54}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.234832 & \Large 3.838096 & \Large 4.023353 & \Large 4.252851 & \Large 4.665314 & \Large 4.815482 & \Large 4.977597 & \Large 5.161032 & \Large 5.177044 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 55}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.302296 & \Large 3.785647 & \Large 4.107944 & \Large 4.410034 & \Large 4.505211 & \Large 4.823287 & \Large 4.958331 & \Large 5.152293 & \Large 5.229118 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 56}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.313960 & \Large 3.720175 & \Large 4.044657 & \Large 4.303502 & \Large 4.598448 & \Large 4.750990 & \Large 4.992841 & \Large 5.131837 & \Large 5.170629 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 57}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.130783 & \Large 3.762072 & \Large 4.146632 & \Large 4.311332 & \Large 4.750162 & \Large 4.672020 & \Large 4.977694 & \Large 5.222734 & \Large 5.140793 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 58}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.262594 & \Large 3.627340 & \Large 4.024076 & \Large 4.388348 & \Large 4.518612 & \Large 4.679884 & \Large 4.992696 & \Large 5.098774 & \Large 5.294068 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 59}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.373823 & \Large 3.743302 & \Large 4.112561 & \Large 4.205524 & \Large 4.600273 & \Large 4.759632 & \Large 5.035975 & \Large 5.201220 & \Large 5.285037 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 60}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.347000 & \Large 3.735703 & \Large 4.092636 & \Large 4.414543 & \Large 4.657685 & \Large 4.777794 & \Large 4.938530 & \Large 5.086364 & \Large 5.372730 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 61}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.044489 & \Large 3.626527 & \Large 4.016534 & \Large 4.295662 & \Large 4.620853 & \Large 4.807976 & \Large 4.965345 & \Large 5.075440 & \Large 5.231709 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 62}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.389037 & \Large 3.793628 & \Large 4.143498 & \Large 4.277266 & \Large 4.544280 & \Large 4.815386 & \Large 4.931665 & \Large 5.135906 & \Large 5.273797 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 63}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.388105 & \Large 3.687713 & \Large 4.126112 & \Large 4.453362 & \Large 4.615073 & \Large 4.756357 & \Large 4.946825 & \Large 5.205215 & \Large 5.283791 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 64}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.243680 & \Large 3.661816 & \Large 4.067993 & \Large 4.365021 & \Large 4.589841 & \Large 4.883355 & \Large 5.038139 & \Large 5.071135 & \Large 5.266612 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 65}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.063095 & \Large 3.778327 & \Large 4.001866 & \Large 4.380833 & \Large 4.567572 & \Large 4.809916 & \Large 4.938729 & \Large 5.148281 & \Large 5.402488 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 66}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.214561 & \Large 3.850225 & \Large 3.911468 & \Large 4.421422 & \Large 4.604106 & \Large 4.821719 & \Large 4.927747 & \Large 5.138110 & \Large 5.192190 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 67}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.056873 & \Large 3.748269 & \Large 4.053177 & \Large 4.302716 & \Large 4.616392 & \Large 4.837583 & \Large 5.065364 & \Large 5.186663 & \Large 5.301760 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 68}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.198797 & \Large 3.556120 & \Large 4.187172 & \Large 4.208629 & \Large 4.626970 & \Large 4.790095 & \Large 4.937630 & \Large 5.212151 & \Large 5.309651 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 69}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.386109 & \Large 3.654207 & \Large 4.132342 & \Large 4.365063 & \Large 4.616766 & \Large 4.804580 & \Large 4.893149 & \Large 5.161356 & \Large 5.159911 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 70}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.219350 & \Large 3.723119 & \Large 4.129367 & \Large 4.369668 & \Large 4.548509 & \Large 4.799420 & \Large 4.932012 & \Large 5.194538 & \Large 5.158102 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 71}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.242543 & \Large 3.814406 & \Large 4.217682 & \Large 4.356068 & \Large 4.574992 & \Large 4.785872 & \Large 4.973271 & \Large 5.207756 & \Large 5.259938 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 72}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.303228 & \Large 3.754321 & \Large 4.111178 & \Large 4.330935 & \Large 4.714957 & \Large 4.785707 & \Large 4.911274 & \Large 5.109376 & \Large 5.189615 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 73}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.450710 & \Large 3.855751 & \Large 4.038298 & \Large 4.328918 & \Large 4.622246 & \Large 4.726871 & \Large 5.050954 & \Large 5.130495 & \Large 5.307300 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 74}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.068479 & \Large 3.833576 & \Large 4.188346 & \Large 4.366345 & \Large 4.670449 & \Large 4.774462 & \Large 5.029858 & \Large 5.084259 & \Large 5.291813 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 75}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.382917 & \Large 3.667952 & \Large 3.930204 & \Large 4.303189 & \Large 4.599296 & \Large 4.784422 & \Large 4.958995 & \Large 4.967160 & \Large 5.279525 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 76}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.248019 & \Large 3.744862 & \Large 4.002725 & \Large 4.267362 & \Large 4.506633 & \Large 4.678878 & \Large 4.973666 & \Large 5.011359 & \Large 5.262503 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 77}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.353938 & \Large 3.772989 & \Large 4.084122 & \Large 4.411030 & \Large 4.552240 & \Large 4.773878 & \Large 4.955850 & \Large 5.220931 & \Large 5.273553 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 78}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.087435 & \Large 3.567261 & \Large 4.200212 & \Large 4.320070 & \Large 4.681884 & \Large 4.818070 & \Large 4.911243 & \Large 5.120133 & \Large 5.333197 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 79}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.274915 & \Large 3.730482 & \Large 4.063316 & \Large 4.429601 & \Large 4.587678 & \Large 4.792797 & \Large 4.862048 & \Large 5.148269 & \Large 5.303730 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 80}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.172410 & \Large 3.667898 & \Large 4.142654 & \Large 4.355289 & \Large 4.482028 & \Large 4.646317 & \Large 4.961207 & \Large 5.228984 & \Large 5.214971 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 81}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 2.986843 & \Large 3.727906 & \Large 4.152805 & \Large 4.421521 & \Large 4.652036 & \Large 4.692554 & \Large 4.971826 & \Large 5.144789 & \Large 5.263106 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 82}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.054730 & \Large 3.718121 & \Large 4.151206 & \Large 4.363292 & \Large 4.631792 & \Large 4.760324 & \Large 5.057744 & \Large 5.123980 & \Large 5.184383 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 83}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.145987 & \Large 3.902681 & \Large 4.051898 & \Large 4.372719 & \Large 4.567988 & \Large 4.779483 & \Large 4.953109 & \Large 5.095684 & \Large 5.343904 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 84}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.214109 & \Large 3.683169 & \Large 4.104640 & \Large 4.339458 & \Large 4.564667 & \Large 4.824411 & \Large 4.940759 & \Large 5.055902 & \Large 5.322425 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 85}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.329754 & \Large 3.563613 & \Large 4.191929 & \Large 4.318984 & \Large 4.543126 & \Large 4.719616 & \Large 4.953381 & \Large 5.133278 & \Large 5.235450 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 86}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.242435 & \Large 3.806699 & \Large 3.966875 & \Large 4.257092 & \Large 4.559968 & \Large 4.824984 & \Large 4.955913 & \Large 5.117689 & \Large 5.271330 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 87}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.201998 & \Large 3.867153 & \Large 4.034537 & \Large 4.443971 & \Large 4.498254 & \Large 4.785546 & \Large 4.970697 & \Large 5.147121 & \Large 5.263587 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 88}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.336235 & \Large 3.723833 & \Large 4.089731 & \Large 4.481216 & \Large 4.572487 & \Large 4.900177 & \Large 5.075471 & \Large 5.131997 & \Large 5.278643 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 89}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.137080 & \Large 3.769472 & \Large 4.045542 & \Large 4.407308 & \Large 4.579651 & \Large 4.829357 & \Large 4.932464 & \Large 5.153250 & \Large 5.231199 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 90}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.159782 & \Large 3.881568 & \Large 4.142038 & \Large 4.272232 & \Large 4.600338 & \Large 4.838418 & \Large 4.871099 & \Large 5.144383 & \Large 5.239075 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 91}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.144595 & \Large 3.709224 & \Large 4.149964 & \Large 4.353155 & \Large 4.548190 & \Large 4.798172 & \Large 4.996082 & \Large 5.100319 & \Large 5.324103 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 92}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.233019 & \Large 3.720816 & \Large 4.046864 & \Large 4.419832 & \Large 4.658692 & \Large 4.859129 & \Large 4.973413 & \Large 5.156157 & \Large 5.298440 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 93}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.129443 & \Large 3.819918 & \Large 4.143323 & \Large 4.260028 & \Large 4.482228 & \Large 4.833208 & \Large 5.029506 & \Large 5.107830 & \Large 5.325027 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 94}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.384726 & \Large 3.764188 & \Large 4.152184 & \Large 4.335444 & \Large 4.653179 & \Large 4.792819 & \Large 4.964382 & \Large 4.999721 & \Large 5.246330 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 95}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.323780 & \Large 3.874357 & \Large 4.048595 & \Large 4.366677 & \Large 4.467622 & \Large 4.815994 & \Large 4.983590 & \Large 5.206507 & \Large 5.208869 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 96}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.195945 & \Large 3.757627 & \Large 4.159693 & \Large 4.301744 & \Large 4.595469 & \Large 4.746588 & \Large 5.051930 & \Large 5.232668 & \Large 5.249870 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 97}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.411852 & \Large 3.908085 & \Large 4.086532 & \Large 4.351913 & \Large 4.671256 & \Large 4.820714 & \Large 4.803847 & \Large 5.086903 & \Large 5.256793 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 98}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.303018 & \Large 3.721071 & \Large 4.067473 & \Large 4.395910 & \Large 4.559745 & \Large 4.733740 & \Large 5.039311 & \Large 5.156306 & \Large 5.258770 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 99}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.292292 & \Large 3.838620 & \Large 4.023488 & \Large 4.386981 & \Large 4.564510 & \Large 4.710872 & \Large 5.080031 & \Large 5.013697 & \Large 5.240990 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Iteración 100}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Dinamico}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Keys  & \Large 3.331779 & \Large 3.700566 & \Large 3.965301 & \Large 4.336291 & \Large 4.550901 & \Large 4.716303 & \Large 4.999383 & \Large 5.060949 & \Large 5.156635 \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 

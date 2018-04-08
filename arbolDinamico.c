@@ -103,9 +103,9 @@ float PumPumPum(int largoTabla, float A[][largoTabla], int R[][largoTabla], stru
 
 
 //#############################################################
-//  Llena la tabla
+//  Llena la tabla por medio del Pum Pum Pum
 //#############################################################
-void llenado(int largoTabla, float A[][largoTabla], int R[][largoTabla], struct elemento matriz[]){
+float llenado(int largoTabla, float A[][largoTabla], int R[][largoTabla], struct elemento matriz[]){
 
 	int fila, columna;
 	columna = 2;
@@ -119,4 +119,6 @@ void llenado(int largoTabla, float A[][largoTabla], int R[][largoTabla], struct 
 		fila++;
 		columna++;
 	}
+
+	return (A[0][largoTabla - 1]);
 }

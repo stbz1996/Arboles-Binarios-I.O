@@ -6,6 +6,7 @@
 #include "estructuras.c"
 #include "latex.c"
 #include "funciones.c"
+#include "arbolDinamico.c"
 #include "ModoEjemplo.c"
 #include "ModoExperimento.c"
 
