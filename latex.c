@@ -77,6 +77,10 @@ void startTree(FILE *salida){
     fprintf(salida, "%s\n", "\\Tree");
 }
 
+void ejemploCompleta(FILE *salida){
+    fprintf(salida, "%s\n", "La tabla completa quedaría de la siguiente manera: ");
+}
+
 //#############################################################
 // Genero el mensaje final del árbol.
 //#############################################################

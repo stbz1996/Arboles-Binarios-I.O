@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.16)  8 APR 2018 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.16)  8 APR 2018 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,18 +1109,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--200
  []
 
 [2] [3]
-Overfull \hbox (43.83473pt too wide) detected at line 208
-\OML/cmm/m/it/10 K[] \OT1/cmr/m/n/10 = (260\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0
-[]10)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (295\OML/cmm/m/it/10 ; \OT1/cmr/m
-/n/10 0[]12)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (234\OML/cmm/m/it/10 ; \OT
-1/cmr/m/n/10 0[]09)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (996\OML/cmm/m/it/1
-0 ; \OT1/cmr/m/n/10 0[]39)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (92\OML/cmm/
-m/it/10 ; \OT1/cmr/m/n/10 0[]04)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (650\O
-ML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0[]26)
+Overfull \hbox (48.83475pt too wide) detected at line 208
+\OML/cmm/m/it/10 K[] \OT1/cmr/m/n/10 = (727\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0
+[]21)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (868\OML/cmm/m/it/10 ; \OT1/cmr/m
+/n/10 0[]25)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (815\OML/cmm/m/it/10 ; \OT
+1/cmr/m/n/10 0[]24)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (289\OML/cmm/m/it/1
+0 ; \OT1/cmr/m/n/10 0[]08)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (554\OML/cmm
+/m/it/10 ; \OT1/cmr/m/n/10 0[]16)\OML/cmm/m/it/10 ; K[] \OT1/cmr/m/n/10 = (187\
+OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0[]05)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--268
+Underfull \hbox (badness 10000) in paragraph at lines 257--291
 
  []
 
@@ -1129,13 +1129,13 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 15634 strings out of 493029
- 290681 string characters out of 6136233
- 359961 words of memory out of 5000000
- 18845 multiletter control sequences out of 15000+600000
+ 15654 strings out of 493029
+ 291061 string characters out of 6136233
+ 361545 words of memory out of 5000000
+ 18865 multiletter control sequences out of 15000+600000
  8661 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,71p,432b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,76p,432b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/te
@@ -1146,7 +1146,7 @@ nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb>
-Output written on arbol.pdf (6 pages, 128819 bytes).
+Output written on arbol.pdf (6 pages, 129639 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

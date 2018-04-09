@@ -100,12 +100,31 @@ int buscaMaxProb(struct elemento matriz[], int min, int max){
 }
 
 //#############################################################
+//  Retorna la posicion del número con mayor probabilidad.
+//#############################################################
+void llenadoGreedy(int largoTabla, int GreedyR[][largoTabla], struct elemento matriz[]){
+	int fila, columna;
+	columna = 2;
+	fila = 0;
+
+	while (columna < largoTabla){
+		for(int i=fila; i >= 0; i--){
+			int tot = columna - i;
+			int min = columna - tot;
+			int prob = buscaMaxProb(matriz, min, columna);
+			GreedyR[i][columna] = prob;
+		}
+		fila++;
+		columna++;
+	}
+}
+
+//#############################################################
 //  FUn
 //#############################################################
 void greedy(struct elemento matriz[], int largo, int R[][largo], int min, int max){
 	int num = buscaMaxProb(matriz, min-1, max);
 	R[min-1][max] = num;
-	printf("Num %d - Min %d - Max %d \n", num, min, max);
 
 	if (num > min){
 		greedy(matriz, largo, R, min, num-1);
