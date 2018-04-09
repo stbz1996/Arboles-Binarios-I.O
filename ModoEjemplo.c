@@ -14,6 +14,7 @@ void modoEjemplo(FILE *salida){
 	float A[objetos + 1][objetos + 1];    // Tabla A, que posee los porcentajes.
 	int R[objetos + 1][objetos + 1];      // Tabla R, que posee la ubicación del árbol.
 	int GreedyR[objetos + 1][objetos + 1];
+	int GreedyRDoble[largoTabla][largoTabla];
 	float bonusTable[largoTabla][largoTabla];
 
 	// Crea el problema (faltan detalles)
@@ -28,11 +29,13 @@ void modoEjemplo(FILE *salida){
 
 	// Ejecuto el algoritmo de árbol greedy.
 	ceroLlenado(largoTabla, bonusTable, GreedyR);
+	ceroLlenado(largoTabla, bonusTable, GreedyRDoble);
 	newBegin = clock();
 	primerLlenado(largoTabla, bonusTable, GreedyR, matriz, objetos);
 	greedy(matriz, largoTabla, GreedyR, 1, 6);
-	printR(largoTabla, GreedyR);
 	greedyTime = getTime(newBegin);
+	primerLlenado(largoTabla, bonusTable, GreedyRDoble, matriz, objetos);
+	llenadoGreedy(largoTabla, GreedyRDoble, matriz);
 
 	/* Genera el latex */
     createLatex(salida);
@@ -50,6 +53,8 @@ void modoEjemplo(FILE *salida){
     // Latex del greedy.
     introductionGreedyExample(salida, objetos, matriz);
     createExampleTableR(salida, largoTabla, GreedyR);
+    ejemploCompleta(salida);
+    createExampleTableR(salida, largoTabla, GreedyRDoble);
     executionTime(salida, greedyTime);
     creadorArboles(salida, matriz, largoTabla, GreedyR, 1, 6);
     closeLatex(salida);
