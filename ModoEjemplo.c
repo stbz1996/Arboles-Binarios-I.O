@@ -1,5 +1,3 @@
-// 0 Spanglish. Todo en español.
-
 void modoEjemplo(FILE *salida){
 
 	// Datos de entrada del problema.
@@ -12,9 +10,9 @@ void modoEjemplo(FILE *salida){
 	salida = fopen(archivoLatex, "w");
 
 	/* Inicializan las estructuras. */
-	struct elemento matriz[objetos]; // Tabla de objetos.
-	float A[objetos + 1][objetos + 1]; // Tabla A, que posee los porcentajes.
-	int R[objetos + 1][objetos + 1]; // Tabla R, que posee la ubicación del árbol.
+	struct elemento matriz[objetos];      // Tabla de objetos.
+	float A[objetos + 1][objetos + 1];    // Tabla A, que posee los porcentajes.
+	int R[objetos + 1][objetos + 1];      // Tabla R, que posee la ubicación del árbol.
 	int GreedyR[objetos + 1][objetos + 1];
 	float bonusTable[largoTabla][largoTabla];
 
@@ -22,10 +20,10 @@ void modoEjemplo(FILE *salida){
 	crearProblema(matriz, objetos);
 
 	// Ejecuta el algoritmo de árbol dinámico.
-	ceroLlenado(largoTabla, A, R); // Se llena la tabla de -1. (A y R)
+	ceroLlenado(largoTabla, A, R);                     // Se llena la tabla de -1. (A y R)
 	newBegin = clock();
-	primerLlenado(largoTabla, A, R, matriz, objetos); // Se llena la tabla de las diagonales iniciales.
-	llenado(largoTabla, A, R, matriz); // Se llena la tabla por medio del Pum Pum Pum.
+	primerLlenado(largoTabla, A, R, matriz, objetos);  // Se llena la tabla de las diagonales iniciales.
+	llenado(largoTabla, A, R, matriz);                 // Se llena la tabla por medio del Pum Pum Pum.
 	dynamicTime = getTime(newBegin);
 
 	// Ejecuto el algoritmo de árbol greedy.
@@ -48,6 +46,7 @@ void modoEjemplo(FILE *salida){
     createExampleTableR(salida, largoTabla, R);
     executionTime(salida, dynamicTime);
     creadorArboles(salida, matriz, largoTabla, R, 1, 6);
+    
     // Latex del greedy.
     introductionGreedyExample(salida, objetos, matriz);
     createExampleTableR(salida, largoTabla, GreedyR);

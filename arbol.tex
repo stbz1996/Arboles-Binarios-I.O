@@ -86,17 +86,17 @@ Se muestra a continuación la tabla de objetos con su respectivo costo (peso) y 
 \rowcolor{Gray}
 \textbf{Letra} & \textbf{Peso} & \textbf{Probabilidad}\\
 \hline
-Object A & 260 & 0.10 \\
+Object A & 891 & 0.28 \\
 \hline
-Object B & 295 & 0.12 \\
+Object B & 562 & 0.18 \\
 \hline
-Object C & 234 & 0.09 \\
+Object C & 536 & 0.17 \\
 \hline
-Object D & 996 & 0.39 \\
+Object D & 67 & 0.02 \\
 \hline
-Object E & 92 & 0.04 \\
+Object E & 792 & 0.25 \\
 \hline
-Object F & 650 & 0.26 \\
+Object F & 360 & 0.11 \\
 \hline
 \end{tabu} \\
 \end{center}
@@ -113,7 +113,7 @@ Object F & 650 & 0.26 \\
         \ Sujeto a:  
         \[ \sum p_{i} \leq 1 \] 
         \ En otras palabras tendremos 
-\[ (p_{1} \approx 0.1029)+(p_{2} \approx 0.1167)+(p_{3} \approx 0.0926)+(p_{4} \approx 0.3941)+(p_{5} \approx 0.0364)+(p_{6} \approx 0.2572) = 1 \]
+\[ (p_{1} \approx 0.2777)+(p_{2} \approx 0.1752)+(p_{3} \approx 0.1671)+(p_{4} \approx 0.0209)+(p_{5} \approx 0.2469)+(p_{6} \approx 0.1122) = 1 \]
 \newline Ahora proseguimos realizando la tabla dinámica.
 \newline \newline \newline \textbf{Tabla A: }
 \definecolor{Gray}{gray}{0.5}
@@ -123,17 +123,17 @@ Object F & 650 & 0.26 \\
 \hline
 \cellcolor{Gray}\color{black}\textbf{X} & \cellcolor{Gray}\color{black}\textbf{0} & \cellcolor{Gray}\color{black}\textbf{1} & \cellcolor{Gray}\color{black}\textbf{2} & \cellcolor{Gray}\color{black}\textbf{3} & \cellcolor{Gray}\color{black}\textbf{4} & \cellcolor{Gray}\color{black}\textbf{5} & \cellcolor{Gray}\color{black}\textbf{6} \\ 
 \hline
-\cellcolor{Gray}\color{black}1 & 0.00 & 0.10 & 0.32 & 0.51 & 1.21 & 1.29 & 1.84 \\ 
+\cellcolor{Gray}\color{black}1 & 0.00 & 0.28 & 0.63 & 1.06 & 1.13 & 1.80 & 2.14 \\ 
 \hline
-\cellcolor{Gray}\color{black}2 &  --  & 0.00 & 0.12 & 0.30 & 0.91 & 0.98 & 1.53 \\ 
+\cellcolor{Gray}\color{black}2 &  --  & 0.00 & 0.18 & 0.51 & 0.56 & 1.07 & 1.39 \\ 
 \hline
-\cellcolor{Gray}\color{black}3 &  --  &  --  & 0.00 & 0.09 & 0.58 & 0.65 & 1.20 \\ 
+\cellcolor{Gray}\color{black}3 &  --  &  --  & 0.00 & 0.17 & 0.21 & 0.64 & 0.87 \\ 
 \hline
-\cellcolor{Gray}\color{black}4 &  --  &  --  &  --  & 0.00 & 0.39 & 0.47 & 1.02 \\ 
+\cellcolor{Gray}\color{black}4 &  --  &  --  &  --  & 0.00 & 0.02 & 0.29 & 0.51 \\ 
 \hline
-\cellcolor{Gray}\color{black}5 &  --  &  --  &  --  &  --  & 0.00 & 0.04 & 0.33 \\ 
+\cellcolor{Gray}\color{black}5 &  --  &  --  &  --  &  --  & 0.00 & 0.25 & 0.47 \\ 
 \hline
-\cellcolor{Gray}\color{black}6 &  --  &  --  &  --  &  --  &  --  & 0.00 & 0.26 \\ 
+\cellcolor{Gray}\color{black}6 &  --  &  --  &  --  &  --  &  --  & 0.00 & 0.11 \\ 
 \hline
 \cellcolor{Gray}\color{black}7 &  --  &  --  &  --  &  --  &  --  &  --  & 0.00 \\ 
 \hline
@@ -145,15 +145,15 @@ Object F & 650 & 0.26 \\
 \hline
 \cellcolor{Gray}\color{black}\textbf{X} & \cellcolor{Gray}\color{black}\textbf{0} & \cellcolor{Gray}\color{black}\textbf{1} & \cellcolor{Gray}\color{black}\textbf{2} & \cellcolor{Gray}\color{black}\textbf{3} & \cellcolor{Gray}\color{black}\textbf{4} & \cellcolor{Gray}\color{black}\textbf{5} & \cellcolor{Gray}\color{black}\textbf{6} \\ 
 \hline
-\cellcolor{Gray}\color{black}1 &  0  &  1  &  2  &  2  &  4  &  4  &  4  \\ 
+\cellcolor{Gray}\color{black}1 &  0  &  1  &  1  &  2  &  2  &  3  &  3  \\ 
 \hline
-\cellcolor{Gray}\color{black}2 &  -  &  0  &  2  &  2  &  4  &  4  &  4  \\ 
+\cellcolor{Gray}\color{black}2 &  -  &  0  &  2  &  2  &  3  &  3  &  5  \\ 
 \hline
-\cellcolor{Gray}\color{black}3 &  -  &  -  &  0  &  3  &  4  &  4  &  4  \\ 
+\cellcolor{Gray}\color{black}3 &  -  &  -  &  0  &  3  &  3  &  5  &  5  \\ 
 \hline
-\cellcolor{Gray}\color{black}4 &  -  &  -  &  -  &  0  &  4  &  4  &  4  \\ 
+\cellcolor{Gray}\color{black}4 &  -  &  -  &  -  &  0  &  4  &  5  &  5  \\ 
 \hline
-\cellcolor{Gray}\color{black}5 &  -  &  -  &  -  &  -  &  0  &  5  &  6  \\ 
+\cellcolor{Gray}\color{black}5 &  -  &  -  &  -  &  -  &  0  &  5  &  5  \\ 
 \hline
 \cellcolor{Gray}\color{black}6 &  -  &  -  &  -  &  -  &  -  &  0  &  6  \\ 
 \hline
@@ -161,7 +161,7 @@ Object F & 650 & 0.26 \\
 \hline
 \end{tabu} \\
 \end{center}
-El algoritmo tarda aproximadamente: 0.007000 segundos en ejecutarse.
+El algoritmo tarda aproximadamente: 0.003000 segundos en ejecutarse.
 
 El árbol de búsqueda binario queda representado de la siguiente forma: 
 \newline \newline 
@@ -172,28 +172,28 @@ El árbol de búsqueda binario queda representado de la siguiente forma:
      level distance=3cm}
 \begin{tikzpicture}
 \Tree
-[.\node[]{D}; 
-\edge[]; 
-[.\node[]{B}; 
+[.\node[]{C}; 
 \edge[]; 
 [.\node[]{A}; 
 \edge[blank]; \node[blank]{};
+\edge[]; 
+[.\node[]{B}; 
 \edge[blank]; \node[blank]{};
+\edge[blank]; \node[blank]{};
+]
 ]
 \edge[]; 
-[.\node[]{C}; 
+[.\node[]{E}; 
+\edge[]; 
+[.\node[]{D}; 
 \edge[blank]; \node[blank]{};
 \edge[blank]; \node[blank]{};
-]
 ]
 \edge[]; 
 [.\node[]{F}; 
-\edge[]; 
-[.\node[]{E}; 
 \edge[blank]; \node[blank]{};
 \edge[blank]; \node[blank]{};
 ]
-\edge[blank]; \node[blank]{};
 ]
 ]
 \end{tikzpicture}
@@ -205,7 +205,7 @@ El árbol de búsqueda binario queda representado de la siguiente forma:
         demas se separan en dos grupos: las menores que la raíz y las mayores. Este 
         procedimiento se repite recursivamente en cada grupo. 
         \[ Llave_{i} = (Peso, Probabilidad), i = 0...n \]
-\[ K_{A} = (260, 0.10), K_{B} = (295, 0.12), K_{C} = (234, 0.09), K_{D} = (996, 0.39), K_{E} = (92, 0.04), K_{F} = (650, 0.26) \]
+\[ K_{A} = (891, 0.28), K_{B} = (562, 0.18), K_{C} = (536, 0.17), K_{D} = (67, 0.02), K_{E} = (792, 0.25), K_{F} = (360, 0.11) \]
 \newline Ahora proseguimos realizando la tabla greedy básico.
 \textbf{Tabla R: }
 \begin{center}
@@ -213,15 +213,15 @@ El árbol de búsqueda binario queda representado de la siguiente forma:
 \hline
 \cellcolor{Gray}\color{black}\textbf{X} & \cellcolor{Gray}\color{black}\textbf{0} & \cellcolor{Gray}\color{black}\textbf{1} & \cellcolor{Gray}\color{black}\textbf{2} & \cellcolor{Gray}\color{black}\textbf{3} & \cellcolor{Gray}\color{black}\textbf{4} & \cellcolor{Gray}\color{black}\textbf{5} & \cellcolor{Gray}\color{black}\textbf{6} \\ 
 \hline
-\cellcolor{Gray}\color{black}1 &  0  &  1  &  -  &  2  &  -  &  -  &  4  \\ 
+\cellcolor{Gray}\color{black}1 &  0  &  1  &  -  &  -  &  -  &  -  &  1  \\ 
 \hline
-\cellcolor{Gray}\color{black}2 &  -  &  0  &  2  &  -  &  -  &  -  &  -  \\ 
+\cellcolor{Gray}\color{black}2 &  -  &  0  &  2  &  -  &  2  &  -  &  5  \\ 
 \hline
-\cellcolor{Gray}\color{black}3 &  -  &  -  &  0  &  3  &  -  &  -  &  -  \\ 
+\cellcolor{Gray}\color{black}3 &  -  &  -  &  0  &  3  &  3  &  -  &  -  \\ 
 \hline
 \cellcolor{Gray}\color{black}4 &  -  &  -  &  -  &  0  &  4  &  -  &  -  \\ 
 \hline
-\cellcolor{Gray}\color{black}5 &  -  &  -  &  -  &  -  &  0  &  5  &  6  \\ 
+\cellcolor{Gray}\color{black}5 &  -  &  -  &  -  &  -  &  0  &  5  &  -  \\ 
 \hline
 \cellcolor{Gray}\color{black}6 &  -  &  -  &  -  &  -  &  -  &  0  &  6  \\ 
 \hline
@@ -229,7 +229,7 @@ El árbol de búsqueda binario queda representado de la siguiente forma:
 \hline
 \end{tabu} \\
 \end{center}
-El algoritmo tarda aproximadamente: 0.116000 segundos en ejecutarse.
+El algoritmo tarda aproximadamente: 0.047000 segundos en ejecutarse.
 
 El árbol de búsqueda binario queda representado de la siguiente forma: 
 \newline \newline 
@@ -240,28 +240,28 @@ El árbol de búsqueda binario queda representado de la siguiente forma:
      level distance=3cm}
 \begin{tikzpicture}
 \Tree
-[.\node[]{D}; 
-\edge[]; 
-[.\node[]{B}; 
-\edge[]; 
 [.\node[]{A}; 
 \edge[blank]; \node[blank]{};
+\edge[]; 
+[.\node[]{E}; 
+\edge[]; 
+[.\node[]{B}; 
 \edge[blank]; \node[blank]{};
-]
 \edge[]; 
 [.\node[]{C}; 
 \edge[blank]; \node[blank]{};
+\edge[]; 
+[.\node[]{D}; 
 \edge[blank]; \node[blank]{};
+\edge[blank]; \node[blank]{};
+]
 ]
 ]
 \edge[]; 
 [.\node[]{F}; 
-\edge[]; 
-[.\node[]{E}; 
 \edge[blank]; \node[blank]{};
 \edge[blank]; \node[blank]{};
 ]
-\edge[blank]; \node[blank]{};
 ]
 ]
 \end{tikzpicture}

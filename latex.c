@@ -368,6 +368,7 @@ void changeGeometry(FILE *salida, int change){
 // Imprimo en una página el título de la iteración.
 //#######################################################
 void writeCase(FILE *output, int iteration){
+    fprintf(output, "%s\n", "\\newpage");
     fprintf(output, "%s\n", "\\begin{center}");
     fprintf(output, "%s\n", "\\newcommand{\\HRule}{\\rule{\\linewidth}{0.5mm}}");
     fprintf(output, "%s\n", "\\center");
@@ -514,8 +515,8 @@ void informationExperiment(FILE *salida, int n){
 
     fprintf(salida, "%s\n", "\\titlepage{\\textbf{Modo Experimento:}} \\newline \\newline ");
     fprintf(salida, "Se resolverán %d ", n);
-    fprintf(salida, "%s\n", "problemas de árboles de búsqueda binaria por medio de diversos algoritmos que nos \n\
-        permitan encontrar varias soluciones a ese problema. \n\
+    fprintf(salida, "%s\n", "problemas de árboles de búsqueda binaria por medio de dos algoritmos que nos \n\
+        permitan encontrar soluciones a ese problema. \n\
         \\ \\ \\newline \\newline \n\
         Restricciones: \n\
         \\begin{itemize} \n\
