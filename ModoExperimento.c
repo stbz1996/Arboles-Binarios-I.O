@@ -15,10 +15,13 @@ void modoExperimento(FILE *salida, int iteraciones){
 	llenarDobles(tiempoDinamico);
 
 	// Guarda las estadisticas de los algoritmos
-	float estadisticaTotalGreedy   [10];
-	float estadisticaTotalDinamica [10];
-	llenarFlotantes(estadisticaTotalGreedy);
-	llenarFlotantes(estadisticaTotalDinamica);
+	float estadisticaCoincidencias     [10];
+	float estadisticaPorcCoincidencias [10];
+	llenarFlotantes(estadisticaCoincidencias);
+	llenarFlotantes(estadisticaPorcCoincidencias);
+
+	float numeroIgualdades = 0;
+	float totalIgualdades = 0;
 
 	double tiempoEjecucion = 0;
 	double tiempoTotalEjecucion = 0;
@@ -38,11 +41,8 @@ void modoExperimento(FILE *salida, int iteraciones){
 		// Guardan los resultados de los algoritmos.
 		float resultadosGreedy[ciclos];
 		float resultadosDinamico[ciclos];
-		int   estadisticaGreedy[ciclos];
-		int   estadisticaDinamica[ciclos];
-
-		llenarEnteros(estadisticaGreedy);
-		llenarEnteros(estadisticaDinamica);
+		float tablaCoincidencias[ciclos];
+		float totalCoincidencias[ciclos];
 
 		// Guarda el inicio del reloj
 		clock_t beginExecutiontime;
@@ -52,11 +52,12 @@ void modoExperimento(FILE *salida, int iteraciones){
 			// Se genera el problema.
 			int objetos = j * 10;
 			int largoTabla = objetos + 1;
+			float coincidencias, porcCoincidencias, esIgual;
 
 			/* Inicializan las estructuras. */
 			struct elemento matriz[objetos];    // Tabla de objetos.
-			float  A[objetos + 1][objetos + 1]; // Tabla A, que posee los porcentajes.
-			int    R[objetos + 1][objetos + 1]; // Tabla R, que posee la ubicación del árbol.
+			float  A[largoTabla][largoTabla]; // Tabla A, que posee los porcentajes.
+			int    R[largoTabla][largoTabla]; // Tabla R, que posee la ubicación del árbol.
 
 			// Crea el problema (faltan detalles)
 			crearProblema(matriz, objetos);
@@ -78,30 +79,33 @@ void modoExperimento(FILE *salida, int iteraciones){
 			// ######################################################
 			// Ejecuta el algoritmo de árbol Greedy.
 			// ######################################################
-			int GreedyR[objetos + 1][objetos + 1];
+			int GreedyR[largoTabla][largoTabla];
 			float bonusTable[largoTabla][largoTabla];
 
 			ceroLlenado(largoTabla, bonusTable, GreedyR);
 			beginExecutiontime = clock();
 			primerLlenado(largoTabla, bonusTable, GreedyR, matriz, objetos);
-			greedy(matriz, largoTabla, GreedyR, 1, 6);
-			printR(largoTabla, GreedyR);
+			//greedy(matriz, largoTabla, GreedyR, 1, objetos);
+			llenadoGreedy(largoTabla, GreedyR, matriz);
+
 			tiempoEjecucion = getTime(beginExecutiontime);
 			tiempoGreedy[j - 1] = tiempoEjecucion;
-			// ######################################################
-		}
 
-		/* Escriba en el archivo resultado los datos. */ 
-		if (i <= 1)
-		{
-			writeCase(archivoResultados, i);
-		}
-		generateResultsTable(archivoResultados, resultadosDinamico, "Resultados Dinámicos");
+			coincidencias = buscarIgualdad(matriz, largoTabla, R, GreedyR, 1, objetos);
+			porcCoincidencias = coincidencias / objetos;
+			esIgual = (int) porcCoincidencias;
 
+			tablaCoincidencias[j - 1] = esIgual;
+			totalCoincidencias[j - 1] = porcCoincidencias;
+		}
 
 		if (i <= 1)
 		{
 			writeExecCase(archivoEjecucion);
+		}
+
+		if (i <= 1){
+			writeStadCase(archivoEstadistico);
 		}
 		
 		// Saca la suma del tiempo de las n ejecuciones dinamico
@@ -114,6 +118,18 @@ void modoExperimento(FILE *salida, int iteraciones){
 		for (int k = 0; k < 10; k++)
 		{
 			tiempoFinalGreedy[k] += tiempoGreedy[k];
+		}
+
+		// Saca la suma de las veces que tuvieron la misma estructura.
+		for (int k = 0; k < 10; k++)
+		{
+			estadisticaCoincidencias[k] += tablaCoincidencias[k];
+		}
+
+		// Saca la suma de las veces que un nodo encajo en la estructura.
+		for (int k = 0; k < 10; k++)
+		{
+			estadisticaPorcCoincidencias[k] += totalCoincidencias[k];
 		}
 	}
 
@@ -134,6 +150,24 @@ void modoExperimento(FILE *salida, int iteraciones){
 		tiempoFinalGreedy[k] = tiempoFinalGreedy[k] / iteraciones;
 	}
 	generateExecutionTable(archivoEjecucion, tiempoFinalGreedy, "Tiempos Promedio A.B.B Greedy");
+	////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////
+	// Imprime la tabla de coincidencias de los algoritmos  //
+	for (int k = 0; k < 10; k++)
+	{
+		estadisticaCoincidencias[k] = estadisticaCoincidencias[k] / iteraciones;
+	}
+	generateStadisticTable(archivoEstadistico, estadisticaCoincidencias, "Porcentaje de veces que el algoritmo greedy encuentra la opción óptima");
+	////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////
+	// Imprime la tabla de tiempo promedio final Greedy   //
+	for (int k = 0; k < 10; k++)
+	{
+		estadisticaPorcCoincidencias[k] = estadisticaPorcCoincidencias[k] / iteraciones;
+	}
+	generateStadisticTable(archivoEstadistico, estadisticaPorcCoincidencias, "Porcentaje de coincidencias de estructura de los árboles");
 	////////////////////////////////////////////////////////
 
 	// Cerrar los archivos.

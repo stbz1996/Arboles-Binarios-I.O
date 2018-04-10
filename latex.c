@@ -392,6 +392,45 @@ void writeCase(FILE *output, int iteration){
 }
 
 //#############################################################
+// Genere una tabla de estadísticas. 
+//#######################################################
+void generateStadisticTable(FILE *temp, float mat[10], char* name){
+
+    fprintf(temp, "%s\n", "\\definecolor{Gray}{gray}{0.9}");
+    fprintf(temp, "%s\n", "\\definecolor{LightCyan}{rgb}{0.88,1,1}");
+    fprintf(temp, "%s\n", "\\begin{center}");
+    fprintf(temp, "%s\n", "\\begin{table}\\renewcommand{\\arraystretch}{2.5}");
+    fprintf(temp, "%s", "\\caption{\\large \\textbf{");
+    fprintf(temp, "%s}}\n", name);
+    fprintf(temp, "%s\n", "\\centering");
+    fprintf(temp, "%s", "\\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|");
+    fprintf(temp, "%s\n", "m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} ");
+    fprintf(temp, "%s\n", "\\hline");
+    fprintf(temp, "%s\n", "\\rowcolor{Gray}");
+    fprintf(temp, "%s", "\\centering \\textbf{X} & ");
+    fprintf(temp, "%s", "\\centering \\textbf{10} & \\centering \\textbf{20} & \\centering \\textbf{30}\\ & ");
+    fprintf(temp, "%s", "\\centering \\textbf{40} & \\centering \\textbf{50} & \\centering \\textbf{60}\\ & ");
+    fprintf(temp, "%s", "\\centering \\textbf{70} & \\centering \\textbf{80} & \\centering \\textbf{90}\\ & ");
+    fprintf(temp, "%s", "\\textbf{100} \\\\");
+    fprintf(temp, "%s\n", "\\hline");
+
+    for(int i=-1; i < 10; i++){
+        if (i >= 0){
+            fprintf(temp, " & %.4f", mat[i]);
+            fprintf(temp, "%s", "\\%");
+        }else{
+            fprintf(temp, "%s", "Key");
+        }
+    }
+    
+    fprintf(temp, "%s\n", " \\\\");
+    fprintf(temp, "%s\n", "\\hline");
+    fprintf(temp, "%s\n", "\\end{tabular} \\\\");
+    fprintf(temp, "%s\n", "\\end{table}");
+    fprintf(temp, "%s\n", "\\end{center}");
+}
+
+//#############################################################
 // Genere una tabla de resultados.
 //#######################################################
 void generateResultsTable(FILE *temp, float mat[10], char* name){
@@ -477,7 +516,7 @@ void generateExecutionTable(FILE *temp, double mat[10], char* name){
 void executionTime(FILE *salida, double time){
     fprintf(salida, "%s", "El algoritmo tarda aproximadamente: ");
     fprintf(salida, "%f", time);
-    fprintf(salida, "%s\n\n", " segundos en ejecutarse.");
+    fprintf(salida, "%s\n\n", " milisegundos en ejecutarse.");
 }
 
 //#############################################################
@@ -534,13 +573,12 @@ void informationExperiment(FILE *salida, int n){
         \\item \\textbf{Algoritmo Greedy Básico:} Cada vez se escoge la llave con la máxima \n\
          probabilidad para que sea la raíz del árbol, se repite el proceso con el lado izquierdo y derecho. \n\
         \\end{itemize} \n\
-        \\ En el caso de programación dinámica ya que nuestro objetivo es maximizar el valor que obtenemos, usamos la fórmula: \n\
-        \\[ \\textsc{\\normalsize MAX(Z)}\\\\[0.5cm] = \\sum_{i=1}^{n}x_{i}v_{i} \\] \n\
+        \\ En el caso de programación dinámica ya que nuestro objetivo es minimizar el costo promedio de la búsqueda, usamos la fórmula: \n\
+        \\[ \\textsc{\\normalsize MIN(Z)}\\\\[0.5cm] = \\sum_{i=1}^{n}c_{i}p_{i} \\] \n\
         \\ Que está sujeto a:  \n\
-        \\[ \\sum x_{i}c_{i} \\leq C \\] \n\
-        \\ Con cada $x_{i}$ = 0 o 1.  \n\
-        \\ \\ \\newline \\newline \n\
-        ");
+        \\[ \\sum p_{i} \\equiv 1 \\] \n\
+        \\ Con cada $c_{i}$ = 1, 2, ... n  \n\
+        \\ \\ \\newline \\newline ");
 }
 
 // ############################################################
@@ -557,35 +595,6 @@ void generateExpLatex(FILE *output, FILE *execFile, FILE *respFile, FILE *stadis
     changeGeometry(output, 0);                 // Se restablecen las coordenadas del tamaño
     closeLatex(output);                        // Se cierra el archivo y se ejecuta.
 }
-
-
-
-/*
-
-
-//#############################################################
-// Imprimo en una página el título Ejecuciones.
-//#######################################################
-void writeExecCase(FILE *salida){
-    fprintf(salida, "%s\n", "\\newpage ");
-    fprintf(salida, "%s\n", "\\begin{center}");
-    fprintf(salida, "%s\n", "\\newcommand{\\HRule}{\\rule{\\linewidth}{0.5mm}}");
-    fprintf(salida, "%s\n", "\\center");
-    fprintf(salida, "%s\n", "\\HRule\\\\[6cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "{\\centering \\Huge\\bfseries Tiempo de ejecuciones}\\\\[0.4cm]\n");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[6cm]");
-    fprintf(salida, "%s\n", "\\HRule");
-    fprintf(salida, "%s\n", "\\end{center}");
-    fprintf(salida, "%s\n", "\\newpage ");
-}
-
 
 //#############################################################
 // Imprimo en una página el título Estadísticas.
@@ -609,161 +618,3 @@ void writeStadCase(FILE *salida){
     fprintf(salida, "%s\n", "\\end{center}");
     fprintf(salida, "%s\n", "\\newpage ");
 }
-
-//#############################################################
-// Imprimo en una página el título de la iteración.
-//#######################################################
-void writeCase(FILE *salida, int iteration){
-    fprintf(salida, "%s\n", "\\begin{center}");
-    fprintf(salida, "%s\n", "\\newcommand{\\HRule}{\\rule{\\linewidth}{0.5mm}}");
-    fprintf(salida, "%s\n", "\\center");
-    fprintf(salida, "%s\n", "\\HRule\\\\[6cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "{\\centering \\Huge\\bfseries Iteración %d}\\\\[0.4cm]\n", iteration);
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[0.4cm]");
-    fprintf(salida, "%s\n", "\\HRule\\\\[6cm]");
-    fprintf(salida, "%s\n", "\\HRule");
-    fprintf(salida, "%s\n", "\\end{center}");
-    fprintf(salida, "%s\n", "\\newpage ");
-}
-
-
-//#############################################################
-// Genere una tabla de ejecución. 
-//#######################################################
-void generateExecutionTable(FILE *temp, double mat[][10], char* name){
-
-    fprintf(temp, "%s\n", "\\definecolor{Gray}{gray}{0.9}");
-    fprintf(temp, "%s\n", "\\definecolor{LightCyan}{rgb}{0.88,1,1}");
-    fprintf(temp, "%s\n", "\\begin{center}");
-    fprintf(temp, "%s\n", "\\begin{table}\\renewcommand{\\arraystretch}{2.5}");
-    fprintf(temp, "%s", "\\caption{\\large \\textbf{");
-    fprintf(temp, "%s}}\n", name);
-    fprintf(temp, "%s\n", "\\centering");
-    fprintf(temp, "%s", "\\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|");
-    fprintf(temp, "%s\n", "m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} ");
-    fprintf(temp, "%s\n", "\\hline");
-    fprintf(temp, "%s\n", "\\rowcolor{Gray}");
-    fprintf(temp, "%s", "\\centering \\textbf{X} & ");
-    fprintf(temp, "%s", "\\centering \\textbf{10} & \\centering \\textbf{20} & \\centering \\textbf{30}\\ & ");
-    fprintf(temp, "%s", "\\centering \\textbf{40} & \\centering \\textbf{50} & \\centering \\textbf{60}\\ & ");
-    fprintf(temp, "%s", "\\centering \\textbf{70} & \\centering \\textbf{80} & \\centering \\textbf{90}\\ & ");
-    fprintf(temp, "%s", "\\textbf{100} \\\\");
-    fprintf(temp, "%s\n", "\\hline");
-
-
-    for(int i=0; i < 10; i++){
-
-        int pos = (i + 1) * 100;
-        fprintf(temp, "\\cellcolor{Gray}%d", pos);
-        for(int j=0; j < 10; j++){
-            fprintf(temp, " & %.3f", mat[i][j]);
-            fprintf(temp, "%s", "$ms$");
-        }
-        fprintf(temp, "%s\n", " \\\\");
-        fprintf(temp, "%s\n", "\\hline");
-    }
-    fprintf(temp, "%s\n", "\\end{tabular} \\\\");
-    fprintf(temp, "%s\n", "\\end{table}");
-    fprintf(temp, "%s\n", "\\end{center}");
-    fprintf(temp, "%s\n", "\\newpage ");
-}
-
-
-//#############################################################
-// Genere una tabla de estadísticas. 
-//#######################################################
-void generateStadisticTable(FILE *temp, float mat[][10], char* name){
-
-    fprintf(temp, "%s\n", "\\definecolor{Gray}{gray}{0.9}");
-    fprintf(temp, "%s\n", "\\definecolor{LightCyan}{rgb}{0.88,1,1}");
-    fprintf(temp, "%s\n", "\\begin{center}");
-    fprintf(temp, "%s\n", "\\begin{table}\\renewcommand{\\arraystretch}{2.5}");
-    fprintf(temp, "%s", "\\caption{\\large \\textbf{");
-    fprintf(temp, "%s}}\n", name);
-    fprintf(temp, "%s\n", "\\centering");
-    fprintf(temp, "%s", "\\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|");
-    fprintf(temp, "%s\n", "m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} ");
-    fprintf(temp, "%s\n", "\\hline");
-    fprintf(temp, "%s\n", "\\rowcolor{Gray}");
-    fprintf(temp, "%s", "\\centering \\textbf{X} & ");
-    fprintf(temp, "%s", "\\centering \\textbf{10} & \\centering \\textbf{20} & \\centering \\textbf{30}\\ & ");
-    fprintf(temp, "%s", "\\centering \\textbf{40} & \\centering \\textbf{50} & \\centering \\textbf{60}\\ & ");
-    fprintf(temp, "%s", "\\centering \\textbf{70} & \\centering \\textbf{80} & \\centering \\textbf{90}\\ & ");
-    fprintf(temp, "%s", "\\textbf{100} \\\\");
-    fprintf(temp, "%s\n", "\\hline");
-
-
-    for(int i=0; i < 10; i++){
-
-        int pos = (i + 1) * 100;
-        fprintf(temp, "\\cellcolor{Gray}%d", pos);
-        for(int j=0; j < 10; j++){
-            fprintf(temp, " & %.2f", mat[i][j]);
-            fprintf(temp, "%s", "\\%");
-        }
-        fprintf(temp, "%s\n", " \\\\");
-        fprintf(temp, "%s\n", "\\hline");
-    }
-    fprintf(temp, "%s\n", "\\end{tabular} \\\\");
-    fprintf(temp, "%s\n", "\\end{table}");
-    fprintf(temp, "%s\n", "\\end{center}");
-    fprintf(temp, "%s\n", "\\newpage ");
-}
-
-//#############################################################
-// Genere una tabla de resultados.
-//#######################################################
-void generateResultsTable(FILE *temp, int mat[][10], char* name){
-
-    fprintf(temp, "%s\n", "\\definecolor{Gray}{gray}{0.9}");
-    fprintf(temp, "%s\n", "\\definecolor{LightCyan}{rgb}{0.88,1,1}");
-    fprintf(temp, "%s\n", "\\begin{center}");
-    fprintf(temp, "%s\n", "\\begin{table}\\renewcommand{\\arraystretch}{2.5}");
-    fprintf(temp, "%s", "\\caption{\\large \\textbf{");
-    fprintf(temp, "%s}}\n", name);
-    fprintf(temp, "%s\n", "\\centering");
-    fprintf(temp, "%s", "\\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|");
-    fprintf(temp, "%s\n", "m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} ");
-    fprintf(temp, "%s\n", "\\hline");
-    fprintf(temp, "%s\n", "\\rowcolor{Gray}");
-    fprintf(temp, "%s", "\\centering \\textbf{X} & ");
-    fprintf(temp, "%s", "\\centering \\textbf{10} & \\centering \\textbf{20} & \\centering \\textbf{30}\\ & ");
-    fprintf(temp, "%s", "\\centering \\textbf{40} & \\centering \\textbf{50} & \\centering \\textbf{60}\\ & ");
-    fprintf(temp, "%s", "\\centering \\textbf{70} & \\centering \\textbf{80} & \\centering \\textbf{90}\\ & ");
-    fprintf(temp, "%s", "\\textbf{100} \\\\");
-    fprintf(temp, "%s\n", "\\hline");
-
-
-    for(int i=0; i < 10; i++){
-
-        int pos = (i + 1) * 100;
-        fprintf(temp, "\\cellcolor{Gray}%d", pos);
-        for(int j=0; j < 10; j++){
-            fprintf(temp, " & \\Large %d", mat[i][j]);
-        }
-        fprintf(temp, "%s\n", " \\\\");
-        fprintf(temp, "%s\n", "\\hline");
-    }
-    fprintf(temp, "%s\n", "\\end{tabular} \\\\");
-    fprintf(temp, "%s\n", "\\end{table}");
-    fprintf(temp, "%s\n", "\\end{center}");
-    fprintf(temp, "%s\n", "\\newpage ");
-}
-
-
-//#############################################################
-// Almacene en latex el tiempo de ejecución.
-//#######################################################
-void executionTime(FILE *salida, double time){
-    fprintf(salida, "%s", "\\newline El algoritmo tarda aproximadamente: ");
-    fprintf(salida, "%f", time);
-    fprintf(salida, "%s\n", " segundos en ejecutarse");
-}
-
-*/

@@ -136,6 +136,33 @@ void greedy(struct elemento matriz[], int largo, int R[][largo], int min, int ma
 }
 
 //#############################################################
+// Genero búsquedas...
+//#############################################################
+float buscarIgualdad(struct elemento matriz[], int largo, int R[][largo], int GreedyR[][largo], int min, int max){
+
+    int dynamicNum = R[min-1][max];
+    int greedyNum = GreedyR[min-1][max];
+
+    float num = 0;
+
+    if (dynamicNum == greedyNum){
+    	num = 1;
+    }
+
+    // Tomo el lado izquierdo de num y lo convierto en la raíz.
+    if (dynamicNum > min){
+        num += buscarIgualdad(matriz, largo, R, GreedyR, min, dynamicNum-1);
+    }
+
+    // Tomo el lado derecho de num y lo convierto en la raíz.
+    if (dynamicNum < max){
+    	num += buscarIgualdad(matriz, largo, R, GreedyR, dynamicNum+1, max);
+    }
+
+    return num;
+}
+
+//#############################################################
 // Cierra los archivos
 //#############################################################
 void closeFiles(FILE *file1, FILE *file2, FILE *file3){
