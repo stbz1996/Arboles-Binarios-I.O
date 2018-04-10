@@ -156,7 +156,7 @@ void modoExperimento(FILE *salida, int iteraciones){
 	// Imprime la tabla de coincidencias de los algoritmos  //
 	for (int k = 0; k < 10; k++)
 	{
-		estadisticaCoincidencias[k] = estadisticaCoincidencias[k] / iteraciones;
+		estadisticaCoincidencias[k] = 100 * (estadisticaCoincidencias[k] / iteraciones);
 	}
 	generateStadisticTable(archivoEstadistico, estadisticaCoincidencias, "Porcentaje de veces que el algoritmo greedy encuentra la opción óptima");
 	////////////////////////////////////////////////////////
@@ -165,7 +165,7 @@ void modoExperimento(FILE *salida, int iteraciones){
 	// Imprime la tabla de tiempo promedio final Greedy   //
 	for (int k = 0; k < 10; k++)
 	{
-		estadisticaPorcCoincidencias[k] = estadisticaPorcCoincidencias[k] / iteraciones;
+		estadisticaPorcCoincidencias[k] = 100 * (estadisticaPorcCoincidencias[k] / iteraciones);
 	}
 	generateStadisticTable(archivoEstadistico, estadisticaPorcCoincidencias, "Porcentaje de coincidencias de estructura de los árboles");
 	////////////////////////////////////////////////////////

@@ -1,0 +1,166 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{tikz-qtree}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{color, colortbl}
+\usepackage{underscore}
+\usepackage{tabu}
+\usepackage{url}
+\usepackage{ragged2e}
+\usepackage{verbatim}
+\usepackage{mathdots} 
+\usepackage{amsmath, amssymb, amsbsy, amsfonts} 
+\usepackage[left=3.5cm,right=3.5cm,top=3.5cm,bottom=3.5cm]{geometry}
+\setlength{\parskip}{\baselineskip}
+\begin{document} 
+    \begin{titlepage} 
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+    \center   
+    \textsc{\Huge Instituto Tecnológico de Costa Rica}\\[1.5cm] 
+    \textsc{\normalsize PROYECTO DE INVESTIGACIÓN DE OPERACIONES}\\[0.5cm] 
+    \textsc{\normalsize PROYECTO 2}\\[0.5cm] 
+    \HRule\\[0.4cm] 
+    {\huge\bfseries \vspace{1cm} Árboles Binarios}\\[0.4cm] 
+    \HRule\\[2cm] 
+    \textbf{\Large Estudiantes}\\[0.5cm] 
+        \begin{minipage}{0.4\textwidth} 
+        \begin{flushleft} 
+            \large 
+            Jason Barrantes Arce 
+            \textsc{2015048456} 
+        \end{flushleft} 
+    \end{minipage} 
+    ~ 
+    \begin{minipage}{0.4\textwidth} 
+        \begin{flushright} 
+           	\large 
+            Steven Bonilla Zúñiga 
+            \textsc{2015056296} 
+        \end{flushright} 
+    \end{minipage} 
+   \newline \newline 
+   \newline  
+   \textbf{\Large Profesor}\\[0.5cm] 
+    \textsc{\normalsize Francisco Torres Rojas}\\[0.5cm] 
+    \end{titlepage} 
+    
+\titlepage{\textbf{Modo Experimento:}} \newline \newline 
+Se resolverán 100 problemas de árboles de búsqueda binaria por medio de dos algoritmos que nos 
+        permitan encontrar soluciones a ese problema. 
+        \ \ \newline \newline 
+        Restricciones: 
+        \begin{itemize} 
+        \item \textbf{Llaves:} Se generarán aleatoriamente de 10 a 100 objetos. 
+        \item \textbf{Peso_{i}:} Varía entre $1 < C{i} \leq 1000 $ de forma aleatoria.
+        \item \textbf{Prob_{i}:} Valor entre $ 0 < P{i} < 1 $ 
+        \end{itemize} 
+        Los tres algoritmos que vamos a implementar son: 
+        \begin{itemize} 
+        \item \textbf{Algoritmo de programación dinámica:} Es el algoritmo A.B.B visto en clase. 
+        \item \textbf{Algoritmo Greedy Básico:} Cada vez se escoge la llave con la máxima 
+         probabilidad para que sea la raíz del árbol, se repite el proceso con el lado izquierdo y derecho. 
+        \end{itemize} 
+        \ En el caso de programación dinámica ya que nuestro objetivo es minimizar el costo promedio de la búsqueda, usamos la fórmula: 
+        \[ \textsc{\normalsize MIN(Z)}\\[0.5cm] = \sum_{i=1}^{n}c_{i}p_{i} \] 
+        \ Que está sujeto a:  
+        \[ \sum p_{i} \equiv 1 \] 
+        \ Con cada $c_{i}$ = 1, 2, ... n  
+        \ \ \newline \newline 
+\newgeometry{left=1.5cm,right=1.5cm,top=3.5cm,bottom=3.5cm}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Tiempo de ejecuciones}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Tiempos Promedio A.B.B Dinámicos}}
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Key & 0.008$ms$ & 0.041$ms$ & 0.120$ms$ & 0.262$ms$ & 0.490$ms$ & 0.813$ms$ & 1.250$ms$ & 1.830$ms$ & 2.552$ms$ & 3.455$ms$ \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Tiempos Promedio A.B.B Greedy}}
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Key & 0.005$ms$ & 0.022$ms$ & 0.058$ms$ & 0.118$ms$ & 0.211$ms$ & 0.336$ms$ & 0.500$ms$ & 0.715$ms$ & 0.980$ms$ & 1.296$ms$ \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newpage 
+\begin{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\HRule\\[6cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+{\centering \Huge\bfseries Estadísticas}\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[0.4cm]
+\HRule\\[6cm]
+\HRule
+\end{center}
+\newpage 
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Porcentaje de veces que el algoritmo greedy encuentra la opción óptima}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Key & 11.0000\% & 0.0000\% & 0.0000\% & 0.0000\% & 0.0000\% & 0.0000\% & 0.0000\% & 0.0000\% & 0.0000\% & 0.0000\% \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\begin{center}
+\begin{table}\renewcommand{\arraystretch}{2.5}
+\caption{\large \textbf{Porcentaje de coincidencias de estructura de los árboles}}
+\centering
+\begin{tabular} { |m{0.5cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|m{1.3cm}|} 
+\hline
+\rowcolor{Gray}
+\centering \textbf{X} & \centering \textbf{10} & \centering \textbf{20} & \centering \textbf{30}\ & \centering \textbf{40} & \centering \textbf{50} & \centering \textbf{60}\ & \centering \textbf{70} & \centering \textbf{80} & \centering \textbf{90}\ & \textbf{100} \\\hline
+Key & 84.9000\% & 81.6000\% & 81.3667\% & 81.3000\% & 80.2000\% & 80.0500\% & 80.5143\% & 80.4500\% & 80.6334\% & 80.4600\% \\
+\hline
+\end{tabular} \\
+\end{table}
+\end{center}
+\newgeometry{left=3.5cm,right=3.5cm,top=3.5cm,bottom=3.5cm}
+\end{document}
